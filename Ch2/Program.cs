@@ -6,7 +6,7 @@ namespace Ch2
     {
         static void Main(string[] args)
         {
-            BigNumber bn1 = new BigNumber(100);
+            BigNumber bn1 = new BigNumber(101);
             BigNumber bn2 = new BigNumber(50);
             Console.WriteLine("A: " + bn1 + " B: " + bn2);
 
@@ -28,8 +28,6 @@ namespace Ch2
 
             bool bRes = bn1 > bn2;
             Console.WriteLine("Сравнение: " + bRes);
-
-            Console.WriteLine(res);
 
             Console.ReadLine();
         }

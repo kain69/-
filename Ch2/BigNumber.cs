@@ -306,7 +306,7 @@ namespace Ch2
 
                 while (l <= r)
                 {
-                    int m = (l + r) >> 1;
+                    var m = (l + r) >> 1;
                     var cur = b * Exp((byte)m, i);
                     if (cur <= retValue)
                     {
@@ -323,7 +323,7 @@ namespace Ch2
             }
 
             retValue.RemoveNulls();
-
+            
             return retValue;
         }
     }
